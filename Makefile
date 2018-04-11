@@ -2,7 +2,7 @@
 
 pkg=github.com/ledyba/go-block-them-all
 
-all: gen .bin/dump-friends .bin/block-them-all
+all: gen .bin/block-them-all
 
 run: all
 	.bin/block-them-all
