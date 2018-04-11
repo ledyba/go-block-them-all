@@ -1,12 +1,12 @@
 # 全自動Twitterブロック機
 
-このツールは、PublicStreamを監視して、設定したキーワードが見つかったら自動で投稿者をブロックします。
+このツールは、PublicStreamを監視して、設定したキーワードが見つかったら自動で投稿者をブロックします。
 
 ツイート本体だけでなく、ユーザーのdescriptionやURL、名前に対してもマッチを行います。
 
 # How to use
 
-conf/cred.goを設定してください。
+conf/cred.goを設定してください。
 
 ```go
 package conf
